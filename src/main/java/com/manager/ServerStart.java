@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @SpringBootApplication
 @EnableSwagger2
-@MapperScan("com.yaowan.game.manager.dao")
+@MapperScan("com.manager.dao")
 public class ServerStart {
 
 	public static void main(String[] args) {
